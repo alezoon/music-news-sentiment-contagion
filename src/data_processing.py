@@ -10,3 +10,10 @@ def reformatData(data):
     df.columns = ['Emotions', 'Probability (%)']
     df = df.sort_values('Probability (%)', ascending=False)
     return df
+
+
+
+#--------------------------------------------
+# Model, Agent Reformatting (If needed)
+#--------------------------------------------
+
